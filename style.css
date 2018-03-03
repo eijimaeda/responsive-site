@@ -1,0 +1,84 @@
+html {
+  font-size: 62.5%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.image {
+  background-image: url(KAZUKIhgfdrfgh_TP_V4.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+@media (max-width: 768px) {
+  .image {
+    height: 250px;
+  }
+}
+
+.main-title {
+  font-size: 2.5rem;
+  padding: 50px 0 10px 0;
+  margin: 0;
+  color: #808080;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 30px 30px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.box {
+  width: 33.33%;
+  margin: 30px;
+  background-color: #ccc;
+}
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+.box p {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 50px 0;
+  background-color: #696969;
+  font-weight: bold;
+  color: #ffffff;
+}
+.box h3 {
+  color: #808080;
+  font-size: 2.5rem;
+}
+
+.footer-box {
+  background-color: #ccc;
+  padding: 20px 0;
+}
+.footer-box h3 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 5px 0;
+  color: #808080;
+}
+.footer-box .button {
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 100px;
+  color: #ffffff;
+  background-color: #808080;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
